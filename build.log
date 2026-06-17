@@ -1,0 +1,570 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/usr/share/maven/lib/guava.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------------< [0;36mcom.example:idcard[0;1m >-------------------------[m
+[[1;34mINFO[m] [1mBuilding idcard 1.0.0[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.3.2:clean[m [1m(default-clean)[m @ [36midcard[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/soksim/Documents/Devops__finals/idcard/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36midcard[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 2 resources from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36midcard[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :source
+[[1;34mINFO[m] Compiling 24 source files with javac [debug release 17] to target/classes
+[[1;34mINFO[m] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/model/ProfileBuilder.java:[12,26] cannot find symbol
+  symbol:   class ProfileBuilder
+  location: class net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[4,29] package org.junit.jupiter.api does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[6,59] package org.springframework.boot.test.autoconfigure.orm.jpa does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[8,35] package org.assertj.core.api does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[8,1] static import only from classes and interfaces
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[10,2] cannot find symbol
+  symbol: class DataJpaTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[4,29] package org.junit.jupiter.api does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[6,59] package org.springframework.boot.test.autoconfigure.orm.jpa does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[10,35] package org.assertj.core.api does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[10,1] static import only from classes and interfaces
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[12,2] cannot find symbol
+  symbol: class DataJpaTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[6,29] package org.junit.jupiter.api does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[7,29] package org.junit.jupiter.api does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[13,35] package org.assertj.core.api does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[13,1] static import only from classes and interfaces
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[14,26] package org.mockito does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[14,1] static import only from classes and interfaces
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[15,26] package org.mockito does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[8,11] package org.mockito does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[20,6] cannot find symbol
+  symbol:   class Test
+  location: class net.orderzone.idcard.repository.TemplateRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[26,6] cannot find symbol
+  symbol:   class Test
+  location: class net.orderzone.idcard.repository.TemplateRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[33,6] cannot find symbol
+  symbol:   class Test
+  location: class net.orderzone.idcard.repository.TemplateRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[27,6] cannot find symbol
+  symbol:   class Test
+  location: class net.orderzone.idcard.repository.ProfileRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[33,6] cannot find symbol
+  symbol:   class Test
+  location: class net.orderzone.idcard.repository.ProfileRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[39,6] cannot find symbol
+  symbol:   class Test
+  location: class net.orderzone.idcard.repository.ProfileRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[46,6] cannot find symbol
+  symbol:   class Test
+  location: class net.orderzone.idcard.repository.ProfileRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[52,6] cannot find symbol
+  symbol:   class Test
+  location: class net.orderzone.idcard.repository.ProfileRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[58,6] cannot find symbol
+  symbol:   class Test
+  location: class net.orderzone.idcard.repository.ProfileRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[19,6] cannot find symbol
+  symbol:   class Mock
+  location: class net.orderzone.idcard.service.ProfileServiceTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[20,6] cannot find symbol
+  symbol:   class Mock
+  location: class net.orderzone.idcard.service.ProfileServiceTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[21,6] cannot find symbol
+  symbol:   class Mock
+  location: class net.orderzone.idcard.service.ProfileServiceTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[22,6] cannot find symbol
+  symbol:   class Mock
+  location: class net.orderzone.idcard.service.ProfileServiceTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[24,6] cannot find symbol
+  symbol:   class InjectMocks
+  location: class net.orderzone.idcard.service.ProfileServiceTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[26,6] cannot find symbol
+  symbol:   class BeforeEach
+  location: class net.orderzone.idcard.service.ProfileServiceTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[29,6] cannot find symbol
+  symbol:   class Test
+  location: class net.orderzone.idcard.service.ProfileServiceTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[48,6] cannot find symbol
+  symbol:   class Test
+  location: class net.orderzone.idcard.service.ProfileServiceTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[56,6] cannot find symbol
+  symbol:   class Test
+  location: class net.orderzone.idcard.service.ProfileServiceTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[48,34] cannot find symbol
+  symbol:   method builder()
+  location: class net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[66,20] cannot find symbol
+  symbol:   method setPhotoFileName(java.lang.String)
+  location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[67,20] cannot find symbol
+  symbol:   method setPhotoContentType(java.lang.String)
+  location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[75,16] cannot find symbol
+  symbol:   method setFullName(java.lang.String)
+  location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[76,16] cannot find symbol
+  symbol:   method setType(net.orderzone.idcard.model.ProfileType)
+  location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[77,16] cannot find symbol
+  symbol:   method setDepartment(java.lang.String)
+  location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[78,16] cannot find symbol
+  symbol:   method setTitle(java.lang.String)
+  location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[79,16] cannot find symbol
+  symbol:   method setEmail(java.lang.String)
+  location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[80,16] cannot find symbol
+  symbol:   method setPhone(java.lang.String)
+  location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[81,16] cannot find symbol
+  symbol:   method setBloodGroup(java.lang.String)
+  location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[82,16] cannot find symbol
+  symbol:   method setDateOfBirth(java.time.LocalDate)
+  location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[83,16] cannot find symbol
+  symbol:   method setExpiryDate(java.time.LocalDate)
+  location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[86,69] invalid method reference
+  cannot find symbol
+    symbol:   method setTemplate(T)
+    location: class net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[88,47] cannot find symbol
+  symbol:   method setBarcodeType(net.orderzone.idcard.model.BarcodeType)
+  location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[91,40] cannot find symbol
+  symbol:   method getPhotoFileName()
+  location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[93,20] cannot find symbol
+  symbol:   method setPhotoFileName(java.lang.String)
+  location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[94,20] cannot find symbol
+  symbol:   method setPhotoContentType(java.lang.String)
+  location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[102,36] cannot find symbol
+  symbol:   method getPhotoFileName()
+  location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/BarcodeService.java:[28,36] cannot find symbol
+  symbol:   method createCompatibleImage(int,int)
+  location: variable barcode of type net.sourceforge.barbecue.Barcode
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/BarcodeService.java:[29,37] incompatible types: java.awt.Graphics cannot be converted to java.awt.Graphics2D
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/model/ProfileBuilder.java:[24,24] cannot find symbol
+  symbol:   method builder()
+  location: class net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/controller/IdCardController.java:[57,67] cannot find symbol
+  symbol:   method getRegistrationNumber()
+  location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/controller/IdCardController.java:[80,74] cannot find symbol
+  symbol:   method getUuid()
+  location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/controller/IdCardController.java:[88,41] cannot find symbol
+  symbol:   method getRegistrationNumber()
+  location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/controller/IdCardController.java:[88,68] cannot find symbol
+  symbol:   method getBarcodeType()
+  location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[58,26] cannot find symbol
+  symbol:   method getTemplate()
+  location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[59,61] cannot find symbol
+  symbol:   method getPrimaryColor()
+  location: variable tmpl of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[60,61] cannot find symbol
+  symbol:   method getSecondaryColor()
+  location: variable tmpl of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[61,61] cannot find symbol
+  symbol:   method getTextColor()
+  location: variable tmpl of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[63,46] cannot find symbol
+  symbol:   method getOrganizationName()
+  location: variable tmpl of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[64,23] cannot find symbol
+  symbol:   method getOrganizationName()
+  location: variable tmpl of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[78,56] cannot find symbol
+  symbol:   method getPhotoFileName()
+  location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[97,44] cannot find symbol
+  symbol:   method getType()
+  location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[99,44] cannot find symbol
+  symbol:   method getFullName()
+  location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[100,14] cannot find symbol
+  symbol:   method getDepartment()
+  location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[101,59] cannot find symbol
+  symbol:   method getDepartment()
+  location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[102,14] cannot find symbol
+  symbol:   method getTitle()
+  location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[103,48] cannot find symbol
+  symbol:   method getTitle()
+  location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[104,53] cannot find symbol
+  symbol:   method getRegistrationNumber()
+  location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[105,14] cannot find symbol
+  symbol:   method getExpiryDate()
+  location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[106,60] cannot find symbol
+  symbol:   method getExpiryDate()
+  location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[109,52] cannot find symbol
+  symbol:   method getUuid()
+  location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[120,73] cannot find symbol
+  symbol:   method getType()
+  location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/TemplateService.java:[25,30] cannot find symbol
+  symbol:   method builder()
+  location: class net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/TemplateService.java:[40,10] cannot find symbol
+  symbol:   method setName(java.lang.String)
+  location: variable t of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/TemplateService.java:[41,10] cannot find symbol
+  symbol:   method setOrganizationName(java.lang.String)
+  location: variable t of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/TemplateService.java:[42,36] cannot find symbol
+  symbol:   method setLayout(java.lang.String)
+  location: variable t of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/TemplateService.java:[43,42] cannot find symbol
+  symbol:   method setPrimaryColor(java.lang.String)
+  location: variable t of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/TemplateService.java:[44,44] cannot find symbol
+  symbol:   method setSecondaryColor(java.lang.String)
+  location: variable t of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/TemplateService.java:[45,39] cannot find symbol
+  symbol:   method setTextColor(java.lang.String)
+  location: variable t of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/TemplateService.java:[46,10] cannot find symbol
+  symbol:   method setTagline(java.lang.String)
+  location: variable t of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[16,24] cannot find symbol
+  symbol:   method builder()
+  location: class net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[23,9] cannot find symbol
+  symbol:   method assertThat(java.util.Optional<net.orderzone.idcard.model.Template>)
+  location: class net.orderzone.idcard.repository.TemplateRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[29,9] cannot find symbol
+  symbol:   method assertThat(boolean)
+  location: class net.orderzone.idcard.repository.TemplateRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[30,9] cannot find symbol
+  symbol:   method assertThat(boolean)
+  location: class net.orderzone.idcard.repository.TemplateRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[36,10] cannot find symbol
+  symbol:   method setLayout(java.lang.String)
+  location: variable t of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[38,9] cannot find symbol
+  symbol:   method assertThat(java.util.List<net.orderzone.idcard.model.Template>)
+  location: class net.orderzone.idcard.repository.TemplateRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[18,23] cannot find symbol
+  symbol:   method builder()
+  location: class net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[30,52] cannot find symbol
+  symbol:   method getId()
+  location: variable saved of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[36,50] cannot find symbol
+  symbol:   method getUuid()
+  location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[42,9] cannot find symbol
+  symbol:   method assertThat(boolean)
+  location: class net.orderzone.idcard.repository.ProfileRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[43,9] cannot find symbol
+  symbol:   method assertThat(boolean)
+  location: class net.orderzone.idcard.repository.ProfileRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[49,9] cannot find symbol
+  symbol:   method assertThat(java.util.List<net.orderzone.idcard.model.Profile>)
+  location: class net.orderzone.idcard.repository.ProfileRepositoryTest
+[[1;34mINFO[m] 100 errors 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  4.434 s
+[[1;34mINFO[m] Finished at: 2026-06-17T20:21:37+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m on project [36midcard[m: [1;31mCompilation failure[m: Compilation failure: 
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/model/ProfileBuilder.java:[12,26] cannot find symbol
+[[1;31mERROR[m]   symbol:   class ProfileBuilder
+[[1;31mERROR[m]   location: class net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[4,29] package org.junit.jupiter.api does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[6,59] package org.springframework.boot.test.autoconfigure.orm.jpa does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[8,35] package org.assertj.core.api does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[8,1] static import only from classes and interfaces
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[10,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class DataJpaTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[4,29] package org.junit.jupiter.api does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[6,59] package org.springframework.boot.test.autoconfigure.orm.jpa does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[10,35] package org.assertj.core.api does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[10,1] static import only from classes and interfaces
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[12,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class DataJpaTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[6,29] package org.junit.jupiter.api does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[7,29] package org.junit.jupiter.api does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[13,35] package org.assertj.core.api does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[13,1] static import only from classes and interfaces
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[14,26] package org.mockito does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[14,1] static import only from classes and interfaces
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[15,26] package org.mockito does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[8,11] package org.mockito does not exist
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[20,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Test
+[[1;31mERROR[m]   location: class net.orderzone.idcard.repository.TemplateRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[26,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Test
+[[1;31mERROR[m]   location: class net.orderzone.idcard.repository.TemplateRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[33,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Test
+[[1;31mERROR[m]   location: class net.orderzone.idcard.repository.TemplateRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[27,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Test
+[[1;31mERROR[m]   location: class net.orderzone.idcard.repository.ProfileRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[33,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Test
+[[1;31mERROR[m]   location: class net.orderzone.idcard.repository.ProfileRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[39,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Test
+[[1;31mERROR[m]   location: class net.orderzone.idcard.repository.ProfileRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[46,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Test
+[[1;31mERROR[m]   location: class net.orderzone.idcard.repository.ProfileRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[52,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Test
+[[1;31mERROR[m]   location: class net.orderzone.idcard.repository.ProfileRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[58,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Test
+[[1;31mERROR[m]   location: class net.orderzone.idcard.repository.ProfileRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[19,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Mock
+[[1;31mERROR[m]   location: class net.orderzone.idcard.service.ProfileServiceTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[20,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Mock
+[[1;31mERROR[m]   location: class net.orderzone.idcard.service.ProfileServiceTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[21,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Mock
+[[1;31mERROR[m]   location: class net.orderzone.idcard.service.ProfileServiceTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[22,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Mock
+[[1;31mERROR[m]   location: class net.orderzone.idcard.service.ProfileServiceTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[24,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class InjectMocks
+[[1;31mERROR[m]   location: class net.orderzone.idcard.service.ProfileServiceTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[26,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class BeforeEach
+[[1;31mERROR[m]   location: class net.orderzone.idcard.service.ProfileServiceTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[29,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Test
+[[1;31mERROR[m]   location: class net.orderzone.idcard.service.ProfileServiceTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[48,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Test
+[[1;31mERROR[m]   location: class net.orderzone.idcard.service.ProfileServiceTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileServiceTest.java:[56,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Test
+[[1;31mERROR[m]   location: class net.orderzone.idcard.service.ProfileServiceTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[48,34] cannot find symbol
+[[1;31mERROR[m]   symbol:   method builder()
+[[1;31mERROR[m]   location: class net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[66,20] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setPhotoFileName(java.lang.String)
+[[1;31mERROR[m]   location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[67,20] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setPhotoContentType(java.lang.String)
+[[1;31mERROR[m]   location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[75,16] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setFullName(java.lang.String)
+[[1;31mERROR[m]   location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[76,16] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setType(net.orderzone.idcard.model.ProfileType)
+[[1;31mERROR[m]   location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[77,16] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setDepartment(java.lang.String)
+[[1;31mERROR[m]   location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[78,16] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setTitle(java.lang.String)
+[[1;31mERROR[m]   location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[79,16] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setEmail(java.lang.String)
+[[1;31mERROR[m]   location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[80,16] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setPhone(java.lang.String)
+[[1;31mERROR[m]   location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[81,16] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setBloodGroup(java.lang.String)
+[[1;31mERROR[m]   location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[82,16] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setDateOfBirth(java.time.LocalDate)
+[[1;31mERROR[m]   location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[83,16] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setExpiryDate(java.time.LocalDate)
+[[1;31mERROR[m]   location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[86,69] invalid method reference
+[[1;31mERROR[m]   cannot find symbol
+[[1;31mERROR[m]     symbol:   method setTemplate(T)
+[[1;31mERROR[m]     location: class net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[88,47] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setBarcodeType(net.orderzone.idcard.model.BarcodeType)
+[[1;31mERROR[m]   location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[91,40] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getPhotoFileName()
+[[1;31mERROR[m]   location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[93,20] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setPhotoFileName(java.lang.String)
+[[1;31mERROR[m]   location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[94,20] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setPhotoContentType(java.lang.String)
+[[1;31mERROR[m]   location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/ProfileService.java:[102,36] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getPhotoFileName()
+[[1;31mERROR[m]   location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/BarcodeService.java:[28,36] cannot find symbol
+[[1;31mERROR[m]   symbol:   method createCompatibleImage(int,int)
+[[1;31mERROR[m]   location: variable barcode of type net.sourceforge.barbecue.Barcode
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/BarcodeService.java:[29,37] incompatible types: java.awt.Graphics cannot be converted to java.awt.Graphics2D
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/model/ProfileBuilder.java:[24,24] cannot find symbol
+[[1;31mERROR[m]   symbol:   method builder()
+[[1;31mERROR[m]   location: class net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/controller/IdCardController.java:[57,67] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getRegistrationNumber()
+[[1;31mERROR[m]   location: variable profile of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/controller/IdCardController.java:[80,74] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getUuid()
+[[1;31mERROR[m]   location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/controller/IdCardController.java:[88,41] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getRegistrationNumber()
+[[1;31mERROR[m]   location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/controller/IdCardController.java:[88,68] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getBarcodeType()
+[[1;31mERROR[m]   location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[58,26] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getTemplate()
+[[1;31mERROR[m]   location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[59,61] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getPrimaryColor()
+[[1;31mERROR[m]   location: variable tmpl of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[60,61] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getSecondaryColor()
+[[1;31mERROR[m]   location: variable tmpl of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[61,61] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getTextColor()
+[[1;31mERROR[m]   location: variable tmpl of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[63,46] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getOrganizationName()
+[[1;31mERROR[m]   location: variable tmpl of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[64,23] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getOrganizationName()
+[[1;31mERROR[m]   location: variable tmpl of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[78,56] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getPhotoFileName()
+[[1;31mERROR[m]   location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[97,44] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getType()
+[[1;31mERROR[m]   location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[99,44] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getFullName()
+[[1;31mERROR[m]   location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[100,14] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getDepartment()
+[[1;31mERROR[m]   location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[101,59] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getDepartment()
+[[1;31mERROR[m]   location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[102,14] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getTitle()
+[[1;31mERROR[m]   location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[103,48] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getTitle()
+[[1;31mERROR[m]   location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[104,53] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getRegistrationNumber()
+[[1;31mERROR[m]   location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[105,14] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getExpiryDate()
+[[1;31mERROR[m]   location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[106,60] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getExpiryDate()
+[[1;31mERROR[m]   location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[109,52] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getUuid()
+[[1;31mERROR[m]   location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/PdfExportService.java:[120,73] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getType()
+[[1;31mERROR[m]   location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/TemplateService.java:[25,30] cannot find symbol
+[[1;31mERROR[m]   symbol:   method builder()
+[[1;31mERROR[m]   location: class net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/TemplateService.java:[40,10] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setName(java.lang.String)
+[[1;31mERROR[m]   location: variable t of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/TemplateService.java:[41,10] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setOrganizationName(java.lang.String)
+[[1;31mERROR[m]   location: variable t of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/TemplateService.java:[42,36] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setLayout(java.lang.String)
+[[1;31mERROR[m]   location: variable t of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/TemplateService.java:[43,42] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setPrimaryColor(java.lang.String)
+[[1;31mERROR[m]   location: variable t of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/TemplateService.java:[44,44] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setSecondaryColor(java.lang.String)
+[[1;31mERROR[m]   location: variable t of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/TemplateService.java:[45,39] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setTextColor(java.lang.String)
+[[1;31mERROR[m]   location: variable t of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/service/TemplateService.java:[46,10] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setTagline(java.lang.String)
+[[1;31mERROR[m]   location: variable t of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[16,24] cannot find symbol
+[[1;31mERROR[m]   symbol:   method builder()
+[[1;31mERROR[m]   location: class net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[23,9] cannot find symbol
+[[1;31mERROR[m]   symbol:   method assertThat(java.util.Optional<net.orderzone.idcard.model.Template>)
+[[1;31mERROR[m]   location: class net.orderzone.idcard.repository.TemplateRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[29,9] cannot find symbol
+[[1;31mERROR[m]   symbol:   method assertThat(boolean)
+[[1;31mERROR[m]   location: class net.orderzone.idcard.repository.TemplateRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[30,9] cannot find symbol
+[[1;31mERROR[m]   symbol:   method assertThat(boolean)
+[[1;31mERROR[m]   location: class net.orderzone.idcard.repository.TemplateRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[36,10] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setLayout(java.lang.String)
+[[1;31mERROR[m]   location: variable t of type net.orderzone.idcard.model.Template
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/TemplateRepositoryTest.java:[38,9] cannot find symbol
+[[1;31mERROR[m]   symbol:   method assertThat(java.util.List<net.orderzone.idcard.model.Template>)
+[[1;31mERROR[m]   location: class net.orderzone.idcard.repository.TemplateRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[18,23] cannot find symbol
+[[1;31mERROR[m]   symbol:   method builder()
+[[1;31mERROR[m]   location: class net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[30,52] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getId()
+[[1;31mERROR[m]   location: variable saved of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[36,50] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getUuid()
+[[1;31mERROR[m]   location: variable p of type net.orderzone.idcard.model.Profile
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[42,9] cannot find symbol
+[[1;31mERROR[m]   symbol:   method assertThat(boolean)
+[[1;31mERROR[m]   location: class net.orderzone.idcard.repository.ProfileRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[43,9] cannot find symbol
+[[1;31mERROR[m]   symbol:   method assertThat(boolean)
+[[1;31mERROR[m]   location: class net.orderzone.idcard.repository.ProfileRepositoryTest
+[[1;31mERROR[m] /home/soksim/Documents/Devops__finals/idcard/src/main/java/net/orderzone/idcard/repository/ProfileRepositoryTest.java:[49,9] cannot find symbol
+[[1;31mERROR[m]   symbol:   method assertThat(java.util.List<net.orderzone.idcard.model.Profile>)
+[[1;31mERROR[m]   location: class net.orderzone.idcard.repository.ProfileRepositoryTest
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
