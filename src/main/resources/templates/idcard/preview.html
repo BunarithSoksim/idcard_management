@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>ID Card Preview</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f3f4f6; display:flex; justify-content:center; padding:40px; }
+        .card {
+            width: 340px; border-radius: 12px; overflow: hidden;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+        }
+        .card-header {
+            background-color: var(--primary);
+            color: white; padding: 14px 16px; display:flex; align-items:center; gap:10px;
+        }
+        .card-header h2 { margin:0; font-size:14px; }
+        .card-header span { font-size:11px; opacity:0.8; }
+        .card-body { background: white; display:flex; padding:16px; gap:16px; }
+        .photo-box { width:90px; height:100px; background:#e5e7eb; border-radius:8px; overflow:hidden; flex-shrink:0; }
+        .photo-box img { width:100%; height:100%; object-fit:cover; }
+        .info h3 { margin:0 0 4px; font-size:15px; color: var(--text); }
+        .info p  { margin:2px 0; font-size:11px; color:#6b7280; }
+        .info .reg { font-size:10px; color:#9ca3af; margin-top:8px; font-family:monospace; }
+        .card-footer {
+            background: var(--secondary); padding:10px 16px;
+            display:flex; justify-content:space-between; align-items:center;
+        }
+        .card-footer .validity { font-size:10px; color:#374151; }
+        .card-footer img { width:50px; height:50px; }
+        .actions { text-align:center; margin-top:20px; }
+        .btn { background:#1d4ed8; color:white; border:none; padding:10px 24px;
+               border-radius:6px; cursor:pointer; text-decoration:none; font-size:14px; }
+    </style>
+    <script th:inline="javascript">
+        /*<![CDATA[*/
+        var primaryColor   = /*[[${profile.template != null ? profile.template.primaryColor   : '#1d4ed8'}]]*/ '#1d4ed8';
+        var secondaryColor = /*[[${profile.template != null ? profile.template.secondaryColor : '#e0e7ff'}]]*/ '#e0e7ff';
+        var textColor      = /*[[${profile.template != null ? profile.template.textColor      : '#111827'}]]*/ '#111827';
+        document.documentElement.style.setProperty('--primary',   primaryColor);
+        document.documentElement.style.setProperty('--secondary', secondaryColor);
+        document.documentElement.style.setProperty('--text',      textColor);
+        /*]]>*/
+    </script>
+</head>
+<body>
+<div>
+    <div class="card">
+        <div class="card-header">
+            <div>
+                <h2 th:text="${profile.template != null ? profile.template.organizationName : 'My Institution'}">Institution</h2>
+                <span th:text="${profile.type.name() + ' ID CARD'}">TYPE</span>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="photo-box">
+                <img th:if="${profile.hasPhoto()}"
+                     th:src="@{'/photos/' + ${profile.photoFileName}}"
+                     alt="Photo"/>
+                <span th:unless="${profile.hasPhoto()}" style="display:flex;align-items:center;justify-content:center;height:100%;font-size:11px;color:#9ca3af;">No Photo</span>
+            </div>
+            <div class="info">
+                <h3 th:text="${profile.fullName}">Full Name</h3>
+                <p th:text="${profile.department}">Department</p>
+                <p th:text="${profile.title}">Title</p>
+                <p th:text="${profile.email}">Email</p>
+                <p th:text="${profile.phone}">Phone</p>
+                <p class="reg" th:text="'ID: ' + ${profile.registrationNumber}">ID</p>
+            </div>
+        </div>
+        <div class="card-footer">
+            <div class="validity">
+                <div th:text="'Issue: ' + ${profile.issueDate}">Issue</div>
+                <div th:text="'Valid: ' + ${profile.expiryDate}">Expiry</div>
+            </div>
+            <img th:src="@{'/qr/' + ${profile.uuid}}" alt="QR"/>
+        </div>
+    </div>
+    <div class="actions">
+        <a th:href="@{'/export/pdf/' + ${profile.id}}" class="btn">⬇ Export PDF</a>
+    </div>
+</div>
+</body>
+</html>
