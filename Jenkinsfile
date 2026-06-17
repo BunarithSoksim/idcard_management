@@ -44,8 +44,7 @@ pipeline {
     post {
         failure {
             emailext(
-                to: '${DEFAULT_RECIPIENTS}',
-                cc: 'srengty@gmail.com',
+                to: '${DEFAULT_RECIPIENTS}, srengty@gmail.com',
                 subject: "FAILED: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
                 body: """Build failed.
 Job: ${env.JOB_NAME}
