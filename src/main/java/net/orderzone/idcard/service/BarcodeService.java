@@ -25,8 +25,16 @@ public class BarcodeService {
             barcode = BarcodeFactory.createCode128(data);
         }
         barcode.setDrawingText(true);
-        BufferedImage img = barcode.createCompatibleImage(barcode.getWidth(), barcode.getHeight());
-        barcode.draw(img.getGraphics(), 0, 0);
+
+        BufferedImage img = new BufferedImage(
+                barcode.getWidth(),
+                barcode.getHeight(),
+                BufferedImage.TYPE_INT_RGB
+        );
+
+        java.awt.Graphics2D g2d = img.createGraphics();
+        barcode.draw(g2d, 0, 0);
+        g2d.dispose();
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         ImageIO.write(img, "PNG", out);
         return out.toByteArray();
